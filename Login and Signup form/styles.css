@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure that the border doesn't extend beyond the card */
+}
+
+.signup-card {
+    border: 2px solid #2883a7; /* Green border for signup card */
+}
+
+.login-card {
+    border: 2px solid #35addc; /* Red border for login card */
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-block {
+    border-radius: 5px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-top: 20px;
+    }
+}
